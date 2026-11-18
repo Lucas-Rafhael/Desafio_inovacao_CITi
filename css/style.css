@@ -1,0 +1,203 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f6f8;
+    color: #20242b;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* CABEÇALHO */
+
+header {
+    background: #172b4d;
+    color: white;
+    padding: 25px 0;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header h1 span {
+    color: #48c9a5;
+}
+
+header p {
+    color: #cbd5e1;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* INTRODUÇÃO */
+
+.intro {
+    padding: 55px 0 35px;
+}
+
+.tag {
+    color: #299b7b;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.intro h2 {
+    font-size: 32px;
+    margin: 12px 0;
+}
+
+.intro p {
+    color: #687386;
+    font-size: 15px;
+}
+
+/* AGENDA */
+
+.agenda {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e6e9ee;
+}
+
+.agenda-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.agenda-header h3 {
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+.agenda-header p {
+    color: #8992a1;
+    font-size: 13px;
+}
+
+#total {
+    color: #687386;
+    font-size: 13px;
+}
+
+/* ATIVIDADES */
+
+.atividade {
+    border: 1px solid #e6e9ee;
+    border-radius: 9px;
+    padding: 20px;
+    margin-bottom: 12px;
+}
+
+.atividade h4 {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.data {
+    color: #299b7b;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.descricao {
+    color: #687386;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.links {
+    display: flex;
+    gap: 18px;
+    margin-top: 16px;
+}
+
+.links a {
+    color: #267c68;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.loading {
+    color: #8992a1;
+    font-size: 14px;
+}
+
+/* RODAPÉ */
+
+footer {
+    text-align: center;
+    color: #8992a1;
+    padding: 35px;
+    font-size: 13px;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 600px) {
+
+    .intro h2 {
+        font-size: 26px;
+    }
+
+    .agenda {
+        padding: 16px;
+    }
+
+    .agenda-header {
+        gap: 10px;
+    }
+
+    .atividade {
+        padding: 16px;
+    }
+
+}
+
+/* GRUPOS POR DIA */
+
+.grupo-dia {
+    margin-bottom: 28px;
+}
+
+.grupo-dia h3 {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #172b4d;
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e6e9ee;
+}
+
+.grupo-dia .atividade {
+    margin-left: 12px;
+    position: relative;
+}
+
+.grupo-dia .atividade:last-child {
+    margin-bottom: 0;
+}
+
+.sem-gravacao {
+    color: #8992a1;
+    font-size: 13px;
+}
