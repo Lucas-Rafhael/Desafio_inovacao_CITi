@@ -1,5 +1,5 @@
 
-var URL_PLANILHA = "https://docs.google.com/spreadsheets/d/1KSZyFWcF_MTjqBYqkr3BlrTFXDMA1_AT9G3PcbsucSU/edit?gid=0#gid=0";
+var URL_PLANILHA = "https://docs.google.com/spreadsheets/d/1KSZyFWcF_MTjqBYqkr3BlrTFXDMA1_AT9G3PcbsucSU/edit?usp=sharing";
 
 function lerCSV(texto) {
 
