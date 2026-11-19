@@ -1,5 +1,5 @@
 
-var URL_PLANILHA = "ENSIRA_SUA_PLANLHA_AQUI";
+var URL_PLANILHA = "ENSIRA_SUA_PLANILHA_AQUI";
 
 function lerCSV(texto) {
 
