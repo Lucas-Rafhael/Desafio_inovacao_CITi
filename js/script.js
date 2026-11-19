@@ -1,5 +1,5 @@
 
-var URL_PLANILHA = "https://docs.google.com/spreadsheets/d/1465hFePsI0ZbvdMiiOIbMIyyYEEJ-HLI5BF7x4nBHZA/export?format=csv";
+var URL_PLANILHA = "ENSIRA_SUA_PLANLHA_AQUI";
 
 function lerCSV(texto) {
 
